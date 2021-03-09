@@ -1,0 +1,149 @@
+/* PARA EL AVATAR QUE ESTA EN LA BARRA DE NAVEGACIÓN ( SUPERIOR ) */
+li div .avatar {
+  width: 40px;
+  height: 35px;
+  margin-bottom: 15px;
+}
+
+/* EL AVATAR DE ACTUALIZACIÓN DE PERFIL */
+form .avatar {
+  width: 55px;
+  margin-bottom: 15px;
+}
+
+.actions {
+  padding-left: 20px;
+  height: 30px;
+  margin-left: 55px;
+}
+.panel-comments {
+  padding-top: 15px;
+  max-width: 450px;
+}
+ /* AVATAR QUE APARECERÁ EN LA PARTE DUPERIOR DEL CONTENEDOR DE CADA PUBLICACION DE IMAGEN */
+.pub-image .avatar{
+  width: 40px;
+  margin-left: -15px;
+}
+
+.pub-image-detail .panel-comments a {
+    color: #444;
+    float: right;
+}
+
+.profile-user {
+  height: 200px;
+  margin-bottom: 20px;
+}
+.profile-user .container-avatar {
+  width: 200px;
+  height: 200px;
+  border-radius: 900px;
+  overflow: hidden;
+  float: left;
+}
+
+.profile-user .profile-user-info{
+    float: left;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.profile-user .container-avatar img {
+  height: 100%;
+}
+
+.navbar .container-avatar,
+.pub-image .container-avatar {
+  width: 35px;
+  height: 35px;
+  border-radius: 900px;
+  overflow: hidden;
+  margin-left: 20px;
+}
+
+.navbar .container-avatar img
+.pub-image .container-avatar img {
+  height: 100%;
+}
+
+.pub-image {
+  margin-bottom: 25px;
+}
+
+.pub-image .card-body {
+  padding: 0px;
+}
+
+.image-container {
+  width: 100%;
+  max-height: 500px;
+  overflow: hidden;
+}
+
+.image-detail {
+  max-height: 600px;
+}
+
+.image-container img {
+  width: 100%;
+}
+
+
+.pub-image .container-avatar {
+  float: left;
+  margin-right: 15px;
+}
+
+.pub-image .pub_user_data {
+  font-weight: lighter;
+  line-height: 35px;
+}
+
+.pub-image-detail .comments {
+  padding: 20px;
+}
+
+.pub-image .pub_user_data a {
+  color: #444;
+}
+
+.pub-image .color-nick {
+  color: gray;
+}
+
+.pub-image .description {
+  padding: 20px;
+  padding-bottom: 0px;
+}
+
+.container-likes{
+  float: left;
+  padding: 20px;
+  padding-bottom:  0px;
+  padding-top: 1px;
+  padding-right: 0px;
+  margin-bottom: 10px;
+}
+
+/* IMAGEN DEL CORAZONCITO, PARA LOS LIKES */
+.container-likes img {
+  width: 25px;
+}
+
+.pub-image .btn-comments{
+  color: black;
+  margin: 20px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.pub-image-detail .btn-comments{
+  color: black;
+  margin: 20px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding-left: 0px;
+}
